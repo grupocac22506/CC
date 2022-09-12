@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fjalla One", sans-serif;
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+  height: 15vh;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: rgba(133, 133, 133, 0.893);
+  text-decoration: none;
+  font-size: 1.4em;
+  display: flex;
+  font-family: "B20 Sans";
+  background-color: transparent;
+  height: 30%;
+  padding: 0px 75px;
+  margin: 0px 15px;
+  align-items: center;
+}
+
+.imgt {
+  height: 100%;
+  width: 10%;
+  opacity: 1;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgt2 {
+  height: 70%;
+  width: 100%;
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+  top: 3%;
+  left: 0;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(245, 245, 245, 0.744);
+  padding: 0;
+  margin: 0;
+}
+
+#p1 {
+  background-color:transparent;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  position: absolute;
+  top: 30%;
+  left: 28vw;
+  right: 28vw;
+  z-index: 30;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#p2 {
+  background-color:transparent;
+  color: rgb(29, 146, 224);
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+ 
+  top: 50%;
+  left: 28vw;
+  right: 28vw;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(29, 146, 224), rgb(29, 146, 224));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  font-weight: bold;
+}
+a:hover,
+a:focus {
+  background-size: 100% 2px;
+}
+
+.act {
+  color: rgb(29, 146, 224);
+}
+
