@@ -64,13 +64,16 @@ nav a {
 }
 .page {
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   background-color: rgba(245, 245, 245, 0.744);
   padding: 0;
   margin: 0;
+  top: 15vh;
+  left:0;
 }
 
 #p1 {
@@ -128,3 +131,7 @@ a:focus {
   color: rgb(29, 146, 224);
 }
 
+.central{
+
+  position: relative;
+}
