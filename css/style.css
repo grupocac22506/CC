@@ -205,15 +205,17 @@ button {
   justify-content: center;
   /* position: absolute; */
   display: flex;
-  width: 100%
+  flex-wrap: wrap;
 }
 .tarjeta {
   float: left;
-  border: 1px solid red;
-  margin:4px; padding: 2px;
-  width:300px;
-  height:210px;
-  overflow: hidden;
+    border: 1px solid red;
+    margin:4px; padding: 2px;
+    width:300px;
+    height:210px;
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
 }
 .b2{
   background-color: rgba(164, 170, 35, 0.982);
