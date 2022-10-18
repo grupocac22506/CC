@@ -1,7 +1,11 @@
 
-
+	   
         // Esta función lee los datos remotos, usando fetch
         function traerDatosAPI() {
+            
+             for (var i = 0; i < 8; i++) {
+                            
+
             fetch('https://randomuser.me/api') // API a leer
                 // Cuando ha finalizado la lectura
                 // guardo en datos el texto leido:
@@ -16,5 +20,9 @@
                          Pass: ${datos.results[0].login.password}<br>
                          ${datos.results[0].email}</div>`
                 })
+            }
         }
+
+        
+		
    
