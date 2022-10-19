@@ -31,12 +31,12 @@ nav {
 nav a {
   color: rgba(98, 85, 75, 0.982);
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 1.3em;
   display: flex;
   font-family: "B20 Sans";
   background-color: transparent;
   height: 30%;
-  padding: 0px 75px;
+  padding: 0px 55px;
   margin: 0px 15px;
   align-items: center;
 }
