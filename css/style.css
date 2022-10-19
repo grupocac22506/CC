@@ -26,6 +26,7 @@ nav {
   text-align: center;
   height: 15vh;
   flex-wrap: wrap;
+  
 }
 
 nav a {
@@ -164,10 +165,11 @@ a {
   height: 75%;
   display: flex;
   position: relative; 
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items:center;
+  justify-content:center;
   top: 15vh;
   flex-direction: column;
+  
   
 }
 .box3 {
@@ -190,7 +192,7 @@ a {
 button {
   font-size: 14px;
   color: white;
-  background-color:darkolivegreen;
+  background-color:rgb(29, 146, 224);
   border-radius: 3px;
   border: 1px solid #303030;
   padding: 5px;
@@ -209,7 +211,7 @@ button {
 }
 .tarjeta {
   float: left;
-    border: 1px solid red;
+    border: transparent;
     margin:4px; padding: 2px;
     width:300px;
     height:210px;
@@ -218,7 +220,7 @@ button {
     font-size: 14px;
 }
 .b2{
-  background-color: rgba(164, 170, 35, 0.982);
+  background-color: rgba(184, 151, 126, 0.982)
   
 }
 .imag{

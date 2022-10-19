@@ -3,22 +3,27 @@
 // Esta función lee los datos remotos, usando fetch
 function traerDatosAPI() {
 
-    for (var i = 0; i < 18; i++) {
+    // for (var i = 0; i < 8; i++) {
 
 
-        fetch('https://coffee.alexflipnote.dev/random.json') // API a leer
+        fetch('http://dataservice.accuweather.com/currentconditions/v1/7048?apikey=JhH7XUAnMTDsvmIeIkf3rVwUVfIUwMiG&language=es-ar&details=true') // API a leer
             // Cuando ha finalizado la lectura
             // guardo en datos el texto leido:
-             .then(datos => datos.json()) //res va a guardar el dato mediante el método .json()
+            .then(datos => datos.json()) //res va a guardar el dato mediante el método .json()
             .then(datos => {
                 // Y luego copio ese texto en #contenido.
                 contenido.innerHTML +=
-                    `<div class="tarjeta">
-                         <img class="imag"src = "${datos.file}"</img><br>
-                        </div>`
+                `<div class="tarjeta">
+                Estado: ${datos[0].WeatherText}<br>
+                <img src = "https://cryptogamic-instruc.000webhostapp.com/IMG/${datos[0].WeatherIcon}.png"</img><br>
+                Temperatura: ${datos[0].Temperature.Metric.Value}C, ${datos[0].Temperature.Imperial.Value}F<br>
+                Sensación Térmica: ${datos[0].RealFeelTemperature.Metric.Value}C, ${datos[0].RealFeelTemperature.Imperial.Value}F<br>
+                ${datos[0].RealFeelTemperature.Metric.Phrase}<br>
+               
+               </div>`
             })
     }
-}
+// }
 function eliminarParrafo() {
     const elemento = document.getElementById("contenido");
     elemento.remove();
@@ -28,10 +33,10 @@ function eliminarParrafo() {
         `<div id="contenido" class="container">
          </div>`
 
-    for (var i = 0; i < 18; i++) {
+    for (var i = 0; i < 8; i++) {
 
 
-        fetch('https://randomuser.me/api') // API a leer
+        fetch('https://coffee.alexflipnote.dev/random.json') // API a leer
             // Cuando ha finalizado la lectura
             // guardo en datos el texto leido:
             .then(datos => datos.json()) //res va a guardar el dato mediante el método .json()
@@ -39,13 +44,12 @@ function eliminarParrafo() {
                 // Y luego copio ese texto en #contenido.
                 contenido.innerHTML +=
                     `<div class="tarjeta">
-                         <img src = "${datos.results[0].picture.large}"</img><br>
-                         Nombre: ${datos.results[0].name.last}, ${datos.results[0].name.first}<br>
-                         User: ${datos.results[0].login.username}<br>
-                         Pass: ${datos.results[0].login.password}<br>
-                         ${datos.results[0].email}</div>`
+                         <img class="imag"src = "${datos.file}"</img><br>
+                        </div>`
             })
     }
 
 
 }
+
+                
