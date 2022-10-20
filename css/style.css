@@ -36,8 +36,8 @@ nav a {
   display: flex;
   font-family: "B20 Sans";
   background-color: transparent;
-  height: 30%;
-  padding: 0px 55px;
+  height: 100%;
+  padding: 0px 20px;
   margin: 0px 15px;
   align-items: center;
 }
@@ -73,11 +73,11 @@ a {
   
 }
 
-#anav{
+.anav{
   font-family: 'Pacifico', cursive;
 }
-#anav:hover,
-#anav:focus {
+.anav:hover,
+.anav:focus {
   background-size: 100% 2px;
   color: rgb(29, 146, 224);
 }
@@ -109,8 +109,6 @@ a {
   padding: 0;
   font-size: 1.5cm;
   position: absolute;
-  /* left: 45vw;
-  top: 30vh; */
   font-family: 'Pacifico', cursive;
   
 }
@@ -203,22 +201,20 @@ button {
 .container {
   margin:0px auto;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-  /* position: absolute; */
   display: flex;
   flex-wrap: wrap;
 }
 .tarjeta {
-  float: left;
+ 
     border: transparent;
-    margin:4px; padding: 2px;
-    width:300px;
-    height:210px;
-    overflow: hidden;
+    margin:0px; padding: 0px;
+    width:100%;
+    height:85%;
     font-family:'Courier New', Courier, monospace;
     font-size: 14px;
-}
+   }
+
 .b2{
   background-color: rgba(184, 151, 126, 0.982)
   
@@ -226,4 +222,18 @@ button {
 .imag{
   width: 100%;
   height: 100%;
+}
+#contenido{
+
+  color: rgba(98, 85, 75, 0.982);
+  text-decoration: none;
+  font-size: 1.3em;
+  display: flex;
+  font-family: "B20 Sans";
+  background-color: transparent;
+  height: 100%;
+  padding: 0px 20px;
+  margin: 0px 15px;
+  align-items: center;
+    
 }

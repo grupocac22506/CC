@@ -17,9 +17,8 @@ function traerDatosAPI() {
                 Estado: ${datos[0].WeatherText}<br>
                 <img src = "https://cryptogamic-instruc.000webhostapp.com/IMG/${datos[0].WeatherIcon}.png"</img><br>
                 Temperatura: ${datos[0].Temperature.Metric.Value}C, ${datos[0].Temperature.Imperial.Value}F<br>
-                Sensación Térmica: ${datos[0].RealFeelTemperature.Metric.Value}C, ${datos[0].RealFeelTemperature.Imperial.Value}F<br>
-                ${datos[0].RealFeelTemperature.Metric.Phrase}<br>
-               
+                Sensación Térmica: ${datos[0].RealFeelTemperature.Metric.Value}C, ${datos[0].RealFeelTemperature.Imperial.Value}
+                               
                </div>`
             })
     }

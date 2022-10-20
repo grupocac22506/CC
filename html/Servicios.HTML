@@ -7,6 +7,7 @@
     <title>Servicios</title>
 
     <link rel="stylesheet" href="\CSS\style.css" />
+    <script src="\JS/script.js"></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,14 +17,19 @@
   </head>
 
   <body>
+    <script>
+      window.onload = traerDatosAPI();
+    </script>
+  
     <nav class="box1">
-    <img src="https://cryptogamic-instruc.000webhostapp.com/IMG/logocof2.jpg" alt="" class="imgt" />
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/index.html">Inicio</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/QuienesSomos.html">¿Quienes Somos?</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Galeria.html">Galería</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Servicios.html" class="act">Servicios</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Contacto.html">Contacto</a>
-  </nav>
+      <img src="https://cryptogamic-instruc.000webhostapp.com/IMG/logocof2.jpg" alt="" class="imgt" />
+      <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/index.html">Inicio</a>
+      <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/QuienesSomos.html">¿Quienes Somos?</a>
+      <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Galeria.html">Galería</a>
+      <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Servicios.html" class="act">Servicios</a>
+      <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Contacto.html">Contacto</a>
+      <div id="contenido" class="anav"></div>
+    </nav>
 
     <footer class="piepag box3">
       <div id="copy">Coffee Shop © Todos los derechos reservados 2022</div>

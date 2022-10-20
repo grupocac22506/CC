@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
 
-    <link rel="stylesheet" href="\CSS\style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
 
-      <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <!--  -->
-  </head>
+  <link rel="stylesheet" href="\CSS\style.css" />
+  <script src="\JS/script.js"></script>
 
-  <body>
-    <nav class="box1">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <!--  -->
+</head>
+
+<body>
+  <script>
+    window.onload = traerDatosAPI();
+  </script>
+
+  <nav class="box1">
     <img src="https://cryptogamic-instruc.000webhostapp.com/IMG/logocof2.jpg" alt="" class="imgt" />
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/index.html">Inicio</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/QuienesSomos.html">¿Quienes Somos?</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Galeria.html">Galería</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Servicios.html">Servicios</a>
-    <a id="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Contacto.html" class="act">Contacto</a>
+    <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/index.html">Inicio</a>
+    <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/QuienesSomos.html">¿Quienes Somos?</a>
+    <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Galeria.html">Galería</a>
+    <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Servicios.html">Servicios</a>
+    <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Contacto.html" class="act">Contacto</a>
+    <div id="contenido" class="anav"></div>
   </nav>
 
-    <footer class="piepag box3">
-      <div id="copy">Coffee Shop © Todos los derechos reservados 2022</div>
-      <ul id="enlaces">
-        <li class="lif">
-          <a href="https://twitter.com/?lang=es"><img src=https://cdn-icons-png.flaticon.com/128/1384/1384033.png width="40px" height="40px" alt="Twitter" ></a>
-        </li>
-        <li class="lif">
-          <a href="https://instagram.com"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png"width="40px" height="40px" alt="Instagram"></a>
-        </li>
-        <li class="lif">
-          <a href="https://facebook.com" ><img src="https://cdn-icons-png.flaticon.com/128/1384/1384021.png" width="40px" height="40px" alt="Facebook"></a>
-        </li>
-      </ul>
-    </footer>
-  </body>
+  <footer class="piepag box3">
+    <div id="copy">Coffee Shop © Todos los derechos reservados 2022</div>
+    <ul id="enlaces">
+      <li class="lif">
+        <a href="https://twitter.com/?lang=es"><img src=https://cdn-icons-png.flaticon.com/128/1384/1384033.png
+            width="40px" height="40px" alt="Twitter"></a>
+      </li>
+      <li class="lif">
+        <a href="https://instagram.com"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" width="40px"
+            height="40px" alt="Instagram"></a>
+      </li>
+      <li class="lif">
+        <a href="https://facebook.com"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384021.png" width="40px"
+            height="40px" alt="Facebook"></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
 </html>
