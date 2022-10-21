@@ -16,7 +16,7 @@ function traerDatosAPI() {
                 `<div class="tarjeta">
                 Estado: ${datos[0].WeatherText}<br>
                 Temperatura: ${datos[0].Temperature.Metric.Value}C, ${datos[0].Temperature.Imperial.Value}F<br>
-                Sensación Térmica: ${datos[0].RealFeelTemperature.Metric.Value}C, ${datos[0].RealFeelTemperature.Imperial.Value}
+                Sensación Térmica: ${datos[0].RealFeelTemperature.Metric.Value}C, ${datos[0].RealFeelTemperature.Imperial.Value}F
                         
                </div>
                <div class="tarjeta2">
