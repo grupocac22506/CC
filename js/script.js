@@ -52,29 +52,3 @@ function eliminarParrafo() {
 
 
 }
-
-
-
-// Funcion para validar los campos del formulario
-
-function validarEnviar() {
-    //valido el nombre
-    if (document.fvalida.name.value.length <= 5) {
-        alert("Tiene que escribir su Nombre Completo")
-        document.fvalida.name.focus()
-        return 0;
-    }
-    if (document.fvalida.email.value.length <= 5) {
-        alert("Tiene que escribir su email")
-        document.fvalida.email.focus()
-        return 0;
-    }
-    if (document.fvalida.message.value.length <= 5) {
-        alert("Tiene que escribir su mensaje para poder continuar")
-        document.fvalida.message.focus()
-        return 0;
-    }
-    document.fvalida.submit();
-
-       
-}
