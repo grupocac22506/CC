@@ -26,7 +26,7 @@ nav {
   text-align: center;
   height: 15vh;
   flex-wrap: wrap;
-  
+
 }
 
 nav a {
@@ -70,12 +70,13 @@ a {
   background-size: 0% 2px;
   transition: background-size 0.8s;
   font-weight: bold;
-  
+
 }
 
-.anav{
+.anav {
   font-family: 'Pacifico', cursive;
 }
+
 .anav:hover,
 .anav:focus {
   background-size: 100% 2px;
@@ -84,12 +85,13 @@ a {
 
 .act {
   color: rgb(29, 146, 224);
-  
+
 }
 
 .central {
   position: relative;
 }
+
 .slide {
   margin-top: 10px;
   top: 15vh;
@@ -101,38 +103,41 @@ a {
 }
 
 #tit {
-  
+
   color: WHITE;
   z-index: 1000;
-  background-color:transparent;
+  background-color: transparent;
   margin: 0;
   padding: 0;
   font-size: 1.5cm;
   position: absolute;
   font-family: 'Pacifico', cursive;
-  
+
 }
-.piepag{
+
+.piepag {
   display: flex;
   justify-content: space-between;
-  height: 9%; 
-  background:black; 
-  width:100%; 
-  position:absolute; 
-  bottom:0; 
-  left:0; 
+  height: 9%;
+  background: black;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: rgba(177, 173, 173, 0.982);
 
 }
-#copy{
-   margin-left: 6%;
-   font-size: large;
-   font-style: italic;
-   font-weight: bold;
-   align-items: center;
-   display:flex;
+
+#copy {
+  margin-left: 6%;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
 }
-#enlaces{
+
+#enlaces {
   margin-right: 8%;
   width: 15%;
   align-items: center;
@@ -145,44 +150,49 @@ a {
   background: #007bb5;
   color: white;
 }
-.lif{
+
+.lif {
 
   list-style: none;
   padding-left: 15%;
   padding-right: 15%;
   align-items: center;
-  
+
 }
+
 .box1 {
   width: 100%;
   height: 15%;
- 
+
 }
+
 .box2 {
   width: 100%;
   height: 75%;
   display: flex;
-  position: relative; 
-  align-items:center;
-  justify-content:center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
   top: 15vh;
   flex-direction: column;
   margin: 0;
   padding: 0;
-  
+
 }
+
 .box3 {
   width: 100%;
   height: 10%;
- 
+
 }
-.kont{
+
+.kont {
   display: flex;
   height: 100vh;
   flex-direction: column;
 }
 
-#demo{
+#demo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,7 +201,7 @@ a {
 button {
   font-size: 14px;
   color: white;
-  background-color:rgb(29, 146, 224);
+  background-color: rgb(29, 146, 224);
   border-radius: 3px;
   border: 1px solid #303030;
   padding: 5px;
@@ -200,45 +210,50 @@ button {
 }
 
 .container {
-  margin:0px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
-.tarjeta {
- 
-    border: transparent;
-    margin:0px; padding: 0px;
-    width:70%;
-    height:auto;
-    font-family: 'Pacifico', cursive;
-    font-size: 14px;
-    margin: auto;
-    vertical-align: middle;
-   }
-   .tarjeta2 {
- 
-    border: transparent;
-    margin:0px; padding: 0px;
-    width:30%;
-    height:85%;
-    font-family: 'Pacifico', cursive;
-    font-size: 14px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-   }
 
-.b2{
-  background-color: rgba(184, 151, 126, 0.982)
-  
+.tarjeta {
+
+  border: transparent;
+  margin: 0px;
+  padding: 0px;
+  width: 70%;
+  height: auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 14px;
+  margin: auto;
+  vertical-align: middle;
 }
-.imag{
+
+.tarjeta2 {
+
+  border: transparent;
+  margin: 0px;
+  padding: 0px;
+  width: 30%;
+  height: 85%;
+  font-family: 'Pacifico', cursive;
+  font-size: 14px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.b2 {
+  background-color: rgba(184, 151, 126, 0.982)
+}
+
+.imag {
   width: 100%;
   height: 100%;
 }
-#contenido{
+
+#contenido {
 
   color: rgba(98, 85, 75, 0.982);
   text-decoration: none;
@@ -250,9 +265,10 @@ button {
   padding: 0px 0px;
   margin: 0px 0px;
   align-items: center;
-    
+
 }
-.boxcontact{
+
+.boxcontact {
 
   height: 100%;
   width: 100%;
@@ -278,14 +294,16 @@ button {
   color: #DA1414;
 }
 
-.form input, .form textarea {
-  box-sizing:border-box;
+.form input,
+.form textarea {
+  box-sizing: border-box;
   width: 100%;
   font-size: 1rem;
   padding: .8em;
   border-radius: .5em;
   border: 1px solid #858C94;
 }
+
 .form textarea {
   margin-block-end: 2em;
   font-family: inherit;
@@ -296,3 +314,89 @@ input::-webkit-input-placeholder {
 }
 
 /* data del formulario */
+
+/* box2 quienes somos */
+
+.textQS {
+
+  color: #d67818 !important;
+  font-family: 'Palanquin Dark';
+  line-height: 1;
+  font-weight: 700;
+  text-align: left;
+  font-size: 3.75rem;
+  margin: 0% 5% 0% 5%;
+
+}
+
+#box20 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box21 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box22 {
+  width: 90%;
+  height: 25%;
+  display: flex;
+  
+
+}
+
+#box220 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+#box221 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#text221 {
+  color: #555c66 !important;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  /* font-weight: 700; */
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+/* .imgbox21 {
+ 
+    max-width: 100%;
+  width: auto;
+  height: auto;  
+  
+} */
+
+.divimgbox21 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  padding: 0.2%;
+  margin: 0.2%;
+  justify-content: center;
+  align-items: center; 
+  
+}
