@@ -210,10 +210,24 @@ button {
  
     border: transparent;
     margin:0px; padding: 0px;
-    width:100%;
+    width:70%;
+    height:auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 14px;
+    margin: auto;
+    vertical-align: middle;
+   }
+   .tarjeta2 {
+ 
+    border: transparent;
+    margin:0px; padding: 0px;
+    width:30%;
     height:85%;
     font-family: 'Pacifico', cursive;
     font-size: 14px;
+    margin: auto;
+    display: flex;
+    align-items: center;
    }
 
 .b2{
@@ -233,8 +247,52 @@ button {
   font-family: "B20 Sans";
   background-color: transparent;
   height: 100%;
-  padding: 0px 20px;
-  margin: 0px 15px;
+  padding: 0px 0px;
+  margin: 0px 0px;
   align-items: center;
     
 }
+.boxcontact{
+
+  height: 100%;
+  width: 100%;
+}
+
+
+/* data del formulario */
+.form {
+  max-inline-size: 980px;
+  /* margin: auto; */
+  margin: 0;
+  width: 100%;
+}
+
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  padding-inline-start: .5em;
+}
+
+.form label span {
+  color: #DA1414;
+}
+
+.form input, .form textarea {
+  box-sizing:border-box;
+  width: 100%;
+  font-size: 1rem;
+  padding: .8em;
+  border-radius: .5em;
+  border: 1px solid #858C94;
+}
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
+}
+
+input::-webkit-input-placeholder {
+  color: #0F0A0A88;
+}
+
+/* data del formulario */

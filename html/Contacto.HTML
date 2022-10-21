@@ -17,7 +17,7 @@
   <!--  -->
 </head>
 
-<body>
+<body class="kont">
   <script>
     window.onload = traerDatosAPI();
   </script>
@@ -31,6 +31,20 @@
     <a class="anav" href="https://cryptogamic-instruc.000webhostapp.com/html/Contacto.html" class="act">Contacto</a>
     <div id="contenido" class="anav"></div>
   </nav>
+
+  <div id="cont" class="box2 b2">
+    <!-- <form id="form" class="form" action="https://formspree.io/f/mknevkno" method="POST"> -->
+    <form name="fvalida" id="form" class="form" action="https://formspree.io/f/mknevkno" method="POST">
+      <h3 class="tag"><span>CONTACTO</span></h3>
+      <label for="name">Nombre Completo <span>*</span></label>
+      <input name="name" required type="text" id="name" placeholder="Daniel">
+      <label for="email">Correo Electrónico <span>*</span></label>
+      <input name="email" type="text" id="email" required placeholder="daniel@gmail.com">
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" cols="30" rows="10" style="resize:none"></textarea>
+      <button type="submit" class="btn primary full"> Enviar Mensaje</button>
+    </form>
+  </div>
 
   <footer class="piepag box3">
     <div id="copy">Coffee Shop © Todos los derechos reservados 2022</div>
@@ -49,6 +63,50 @@
       </li>
     </ul>
   </footer>
+
+  <!-- Scrips para que no recargue la pagina al enviar formulario de contacto -->
+  <script>
+    const $form = document.querySelector('#form')
+
+    $form.addEventListener('submit', handlesubmit)
+
+    async function handlesubmit(event) {
+
+      event.preventDefault()
+
+      if (document.fvalida.name.value.length <= 5) {
+        alert("Tiene que escribir su Nombre Completo")
+        document.fvalida.name.focus()
+        return 0;
+      }
+      if (document.fvalida.email.value.length <= 5) {
+        alert("Tiene que escribir su email")
+        document.fvalida.email.focus()
+        return 0;
+      }
+      if (document.fvalida.message.value.length <= 5) {
+        alert("Tiene que escribir su mensaje para poder continuar")
+        document.fvalida.message.focus()
+        return 0;
+      }
+
+      const form = new FormData(this)
+      const response = await fetch(this.action, {
+
+        method: this.method,
+        body: form,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      if (response.ok) {
+        this.reset()
+        alert('Gracias por contactarnos, te escribiremos pronto')
+      }
+
+    }
+  </script> -->
+  <!-- Scrips para que no recargue la pagina al enviar formulario de contacto -->
 </body>
 
 </html>
