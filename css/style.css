@@ -70,7 +70,6 @@ a {
   background-size: 0% 2px;
   transition: background-size 0.8s;
   font-weight: bold;
-
 }
 
 .anav {
@@ -85,7 +84,6 @@ a {
 
 .act {
   color: rgb(29, 146, 224);
-
 }
 
 .central {
@@ -103,7 +101,6 @@ a {
 }
 
 #tit {
-
   color: WHITE;
   z-index: 1000;
   background-color: transparent;
@@ -112,7 +109,6 @@ a {
   font-size: 1.5cm;
   position: absolute;
   font-family: 'Pacifico', cursive;
-
 }
 
 .piepag {
@@ -157,13 +153,11 @@ a {
   padding-left: 15%;
   padding-right: 15%;
   align-items: center;
-
 }
 
 .box1 {
   width: 100%;
   height: 15%;
-
 }
 
 .box2 {
@@ -177,13 +171,11 @@ a {
   flex-direction: column;
   margin: 0;
   padding: 0;
-
 }
 
 .box3 {
   width: 100%;
   height: 10%;
-
 }
 
 .kont {
@@ -265,7 +257,6 @@ button {
   padding: 0px 0px;
   margin: 0px 0px;
   align-items: center;
-
 }
 
 .boxcontact {
@@ -278,7 +269,6 @@ button {
 /* data del formulario */
 .form {
   max-inline-size: 980px;
-  /* margin: auto; */
   margin: 0;
   width: 100%;
 }
@@ -326,7 +316,6 @@ input::-webkit-input-placeholder {
   text-align: left;
   font-size: 3.75rem;
   margin: 0% 5% 0% 5%;
-
 }
 
 #box20 {
@@ -350,8 +339,6 @@ input::-webkit-input-placeholder {
   width: 90%;
   height: 25%;
   display: flex;
-  
-
 }
 
 #box220 {
@@ -359,7 +346,6 @@ input::-webkit-input-placeholder {
   height: 100%;
   display: flex;
   align-items: center;
-
 }
 
 #box221 {
@@ -373,22 +359,12 @@ input::-webkit-input-placeholder {
   color: #555c66 !important;
   line-height: 1.6;
   font-size: 0.9rem;
-  /* font-weight: 700; */
   letter-spacing: 2px;
   margin: 0;
   font-family: Lato, sans-serif;
   font-weight: bold;
   text-align: center;
-  
 }
-
-/* .imgbox21 {
- 
-    max-width: 100%;
-  width: auto;
-  height: auto;  
-  
-} */
 
 .divimgbox21 {
   width: 33%;
@@ -397,6 +373,5 @@ input::-webkit-input-placeholder {
   padding: 0.2%;
   margin: 0.2%;
   justify-content: center;
-  align-items: center; 
-  
+  align-items: center;
 }
