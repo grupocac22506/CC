@@ -349,6 +349,9 @@ height: 80%;
 a{
   line-height: 1.5;
 }
+a img{
+  vertical-align: middle;
+}
 
 
 
