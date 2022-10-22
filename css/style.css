@@ -104,6 +104,8 @@ h5 {
   font-size: 14px;
   margin: auto;
   vertical-align: middle;
+  line-height: 1.5;
+  font-weight:lighter;
 }
 
 .tarjeta2 {
@@ -343,6 +345,9 @@ height: 80%;
   margin: 0;
   padding: 0;
   background-color: rgba(184, 151, 126, 0.982);
+}
+a{
+  line-height: 1.5;
 }
 
 
