@@ -140,6 +140,9 @@ h5 {
   display: flex;
   align-items: center;
   justify-content:space-around;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
   
 }
 
@@ -299,10 +302,10 @@ height: 80%;
   width: 100%;
   height: 75%;
   display: flex;
-  position: relative;
+  /* position: relative; */
   align-items: center;
   justify-content: center;
-  top: 15vh;
+  /* top: 15vh; */
   margin: 0;
   padding: 0;
   background-color: rgba(184, 151, 126, 0.982)
@@ -328,6 +331,18 @@ height: 80%;
   font-family: 'Palanquin Dark';
   font-size: 1.5rem;
   text-transform: uppercase;
+}
+.b2index{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(184, 151, 126, 0.982);
 }
 
 
