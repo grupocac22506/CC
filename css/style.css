@@ -16,6 +16,7 @@ h5 {
   width: 100%;
   height: 15%;
   display: flex;
+  background-color: rgba(177, 173, 173, 0.982);
 }
 
 .b2 {
@@ -23,7 +24,6 @@ h5 {
   height: 75%;
   display: flex;
   justify-content: center;
-  background-color: rgba(184, 151, 126, 0.982)
 }
 
 .b3 {
@@ -304,20 +304,25 @@ height: 80%;
   width: 100%;
   height: 75%;
   display: flex;
-  /* position: relative; */
   align-items: center;
   justify-content: center;
-  /* top: 15vh; */
   margin: 0;
   padding: 0;
-  background-color: rgba(184, 151, 126, 0.982)
 }
 
 
 #divubi0{
   width: 30%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
   
+}
+#divubi01{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #divubi1{
@@ -352,6 +357,25 @@ a{
 a img{
   vertical-align: middle;
 }
+.textcontact{
+  color: #d67818;
+  font-family: 'Palanquin Dark';
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline;
+}
+.textcontact1{
+ display: block;
+}
+
+.imgcontact{
+  display: inline;
+}
+.licontact{
+margin-bottom: 10%;
+
+}
+
 
 
 
