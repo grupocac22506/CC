@@ -12,6 +12,7 @@ function traerDatosAPI() {
         .then(datos => datos.json()) //res va a guardar el dato mediante el método .json()
         .then(datos => {
             // Y luego copio ese texto en #contenido.
+            console.log(datos)
             contenido.innerHTML +=
                 `<div class="tarjeta">
                 Estado: ${datos[0].WeatherText}<br>
