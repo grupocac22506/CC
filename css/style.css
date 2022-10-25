@@ -384,9 +384,9 @@ body{
 
 /* Extra small devices (600px and down) */
 @media only screen and (max-width: 600px) {
-  .b2 {
+  /* .b2 {
     background: red;
-  }
+  } */
 
   .anav {
     font-size: 0.7em;
@@ -404,9 +404,9 @@ body{
 
 /* Small devices (600px and up) */
 @media only screen and (min-width: 600px) {
-  .b2 {
+  /* .b2 {
     background: green;
-  }
+  } */
 
   .anav {
     font-size: 0.8em;
@@ -424,9 +424,9 @@ body{
 
 /* Medium devices (768px and up) */
 @media only screen and (min-width: 768px) {
-  .b2 {
+  /* .b2 {
     background: blue;
-  }
+  } */
 
   .anav {
     font-size: 0.9em;
@@ -444,10 +444,10 @@ body{
 
 /* Large devices (992px and up) */
 @media only screen and (min-width: 992px) {
-  .b2 {
+  /* .b2 {
     background: orange;
     ;
-  }
+  } */
 
   .anav {
     font-size: 1.0em;
@@ -463,7 +463,7 @@ body{
 /* Extra large devices (1200px and up) */
 @media only screen and (min-width: 1200px) {
   .b2 {
-    background: pink;
+    /* background: pink; */
     display: flex;
   }
 
