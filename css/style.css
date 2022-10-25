@@ -24,6 +24,7 @@ h5 {
   height: 75%;
   display: flex;
   justify-content: center;
+  background-color: rgba(184, 151, 126, 0.982)
 }
 
 .b3 {
