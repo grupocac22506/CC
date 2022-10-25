@@ -92,20 +92,21 @@ h5 {
   align-items: center;
   width: 30%;
   text-align: right;
+  background-color: rgba(108, 106, 106, 0.982);
 }
 
 .tarjeta {
 
+  display: flex;
   margin: 0px;
   padding: 0px;
   width: 70%;
-  height: auto;
+  height: 100%;
   font-family: 'Pacifico', cursive;
   font-size: 14px;
   margin: auto;
-  vertical-align: middle;
-  line-height: 1.5;
-  font-weight:lighter;
+  align-items: center;
+  justify-content: right;
 }
 
 .tarjeta2 {
@@ -379,6 +380,107 @@ margin-bottom: 10%;
 body{
 
   margin: 0;
+}
+
+/* Extra small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+  .b2 {
+    background: red;
+  }
+
+  .anav {
+    font-size: 0.7em;
+    padding: 0px 1px;
+    margin: 0px 1px;
+  }
+
+  .tarjeta {
+    font-size: 9px;
+  }
+  .b31{
+    font-size:  small;
+  }
+}
+
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) {
+  .b2 {
+    background: green;
+  }
+
+  .anav {
+    font-size: 0.8em;
+    padding: 0px 5px;
+    margin: 0px 3px;
+  }
+
+  .tarjeta {
+    font-size: 11px;
+  }
+  .b31{
+    font-size:  medium;
+  }
+}
+
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) {
+  .b2 {
+    background: blue;
+  }
+
+  .anav {
+    font-size: 0.9em;
+    padding: 0px 10px;
+    margin: 0px 5px;
+  }
+
+  .tarjeta {
+    font-size: 12px;
+  }
+  .b31{
+    font-size: medium;
+  }
+}
+
+/* Large devices (992px and up) */
+@media only screen and (min-width: 992px) {
+  .b2 {
+    background: orange;
+    ;
+  }
+
+  .anav {
+    font-size: 1.0em;
+    padding: 0px 15px;
+    margin: 0px 10px;
+  }
+
+  .tarjeta {
+    font-size: 13px;
+  }
+}
+
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .b2 {
+    background: pink;
+    display: flex;
+  }
+
+  .anav {
+    font-size: 1.3em;
+    padding: 0px 20px;
+    margin: 0px 15px;
+  }
+
+  .tarjeta {
+    font-size: 15px;
+  }
+}
+
+.imgclima {
+  height: 55%;
+  width: 95%;
 }
 
 

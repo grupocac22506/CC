@@ -14,15 +14,15 @@ function traerDatosAPI() {
             // Y luego copio ese texto en #contenido.
             console.log(datos)
             contenido.innerHTML +=
-                `<div class="tarjeta">
+                `<div class="tarjeta"><span>
                 Estado: ${datos[0].WeatherText}<br>
-                Temperatura: ${datos[0].Temperature.Metric.Value}C, ${datos[0].Temperature.Imperial.Value}F<br>
-                Sensación Térmica: ${datos[0].RealFeelTemperature.Metric.Value}C, ${datos[0].RealFeelTemperature.Imperial.Value}F
+                Temperatura: ${datos[0].Temperature.Metric.Value}C<br>
+                Sensación Térmica: ${datos[0].RealFeelTemperature.Metric.Value}C
                         
                </div>
                <div class="tarjeta2">
-               <img src = "https://cryptogamic-instruc.000webhostapp.com/IMG/${datos[0].WeatherIcon}.png"</img>
-               </div>`
+               <img class="imgclima" src = "https://cryptogamic-instruc.000webhostapp.com/IMG/${datos[0].WeatherIcon}.png"</img>
+               </span></div>`
         })
 }
 // }
