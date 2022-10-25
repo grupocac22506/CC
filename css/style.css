@@ -32,6 +32,7 @@ h5 {
   height: 10%;
   display: flex;
   background-color: rgba(177, 173, 173, 0.982);
+  justify-content: space-between;
 }
 
 #b10 {
@@ -139,7 +140,7 @@ h5 {
 }
 
 .b3icon{
-  width: 40%;
+  width: 60%;
   list-style: none;
   display: flex;
   align-items: center;
